@@ -1,0 +1,15 @@
+.layout-name {
+  color: #f1f5f9;
+  font-size: 40px;
+}
+.configuration-controller {
+  background-color: #475569;
+  min-height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  color: #e2e8f0;
+  font-family: 'Roboto';
+}
