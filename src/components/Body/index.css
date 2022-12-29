@@ -1,1 +1,6 @@
-/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
