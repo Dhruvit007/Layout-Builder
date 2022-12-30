@@ -13,7 +13,6 @@ class App extends Component {
 
   onToggleShowContent = () => {
     this.setState(prevState => ({showContent: !prevState.showContent}))
-    console.log('troggred')
   }
 
   onToggleShowLeftNavbar = () => {

@@ -8,6 +8,9 @@ const ConfigurationController = () => (
         onToggleShowContent,
         onToggleShowLeftNavbar,
         onToggleShowRightNavbar,
+        showContent,
+        showLeftNavbar,
+        showRightNavbar,
       } = value
 
       return (
@@ -19,6 +22,7 @@ const ConfigurationController = () => (
                 onChange={onToggleShowContent}
                 id="content"
                 type="checkbox"
+                checked={showContent}
               />
               <label htmlFor="content">Content</label>
             </div>
@@ -27,6 +31,7 @@ const ConfigurationController = () => (
                 onChange={onToggleShowLeftNavbar}
                 id="leftNavbar"
                 type="checkbox"
+                checked={showLeftNavbar}
               />
               <label htmlFor="leftNavbar">Left Navbar</label>
             </div>
@@ -35,6 +40,7 @@ const ConfigurationController = () => (
                 onChange={onToggleShowRightNavbar}
                 id="rightNavbar"
                 type="checkbox"
+                checked={showRightNavbar}
               />
               <label htmlFor="rightNavbar">Right Navbar</label>
             </div>
